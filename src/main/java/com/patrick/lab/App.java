@@ -4,14 +4,16 @@ public class App
 {
     public static void main( String[] args )
     {
-        int a = 8;
+        int a = 5;
         
         App nApp = new App();
 
         nApp.dayInWord(a);
+
         nApp.sumAverageRunningInt();
+
         nApp.numDivisibleByThreeAndFive(a);
-        
+        System.out.println(a +" is divisible by 3 and 5: " +nApp.numDivisibleByThreeAndFive(a));
     }
 
     public String dayInWord(int num) {
