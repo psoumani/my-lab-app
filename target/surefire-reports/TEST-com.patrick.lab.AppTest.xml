@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.patrick.lab.AppTest" time="1.042" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.patrick.lab.AppTest" time="0.885" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/surefire/surefirebooter4453303333860023743.jar /Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/surefire 2021-01-27T20-23-29_366-jvmRun1 surefire13179266766543369492tmp surefire_018092500557076996101tmp"/>
+    <property name="sun.java.command" value="/Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/surefire/surefirebooter16157389369936711844.jar /Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/surefire 2021-01-27T20-53-38_078-jvmRun1 surefire7507445190631113910tmp surefire_012594869884326334221tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/test-classes:/Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/classes:/Users/psoumani/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/psoumani/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/surefire/surefirebooter4453303333860023743.jar"/>
+    <property name="surefire.real.class.path" value="/Users/psoumani/Desktop/JAVA Training/Code Samples/my-lab-app/target/surefire/surefirebooter16157389369936711844.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -55,4 +55,5 @@
   </properties>
   <testcase name="shouldReturnDay" classname="com.patrick.lab.AppTest" time="0.001"/>
   <testcase name="shouldReturnSum" classname="com.patrick.lab.AppTest" time="0"/>
+  <testcase name="shouldReturnTrueOrFalse" classname="com.patrick.lab.AppTest" time="0"/>
 </testsuite>

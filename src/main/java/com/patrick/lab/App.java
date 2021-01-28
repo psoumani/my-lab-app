@@ -10,6 +10,8 @@ public class App
 
         nApp.dayInWord(a);
         nApp.sumAverageRunningInt();
+        nApp.numDivisibleByThreeAndFive(a);
+        
     }
 
     public String dayInWord(int num) {
@@ -54,6 +56,17 @@ public class App
             }
             System.out.println("The sum of 1,2,...,100 is: " +sum );
             return sum;
+            
+    }
+
+    public boolean numDivisibleByThreeAndFive(int num) {
+            boolean result = true;
+            if ((num % 3 == 0) && (num % 5 == 0)) {
+                    return result;
+            } else {
+                    return !result;
+                    
+            }
             
     }
 }

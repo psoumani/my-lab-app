@@ -15,9 +15,16 @@ public class AppTest {
 
     @Test
     public void shouldReturnSum() {
-    App nApp = new App();
-    int sum = nApp.sumAverageRunningInt();
-    assertTrue(sum == 5050);
+        App nApp = new App();
+        int sum = nApp.sumAverageRunningInt();
+        assertTrue(sum == 5050);
+    }
+
+    @Test
+    public void shouldReturnTrueOrFalse() {
+        App nApp = new App();
+        boolean status = nApp.numDivisibleByThreeAndFive(15);
+        assertTrue(status == true); 
         
     }
 }
