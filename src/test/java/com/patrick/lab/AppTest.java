@@ -12,4 +12,12 @@ public class AppTest {
         String day = nApp.dayInWord(4);
         assertTrue(day == "Thursday");
     }
+
+    @Test
+    public void shouldReturnSum() {
+    App nApp = new App();
+    int sum = nApp.sumAverageRunningInt();
+    assertTrue(sum == 5050);
+        
+    }
 }

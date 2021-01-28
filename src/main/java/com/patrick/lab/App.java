@@ -47,12 +47,13 @@ public class App
         return dayWritten;
     }
 
-    public void sumAverageRunningInt() {
+    public int sumAverageRunningInt() {
             int sum = 0;
             for (int i = 1; i <= 100; i++) {
                     sum = sum + i;
             }
             System.out.println("The sum of 1,2,...,100 is: " +sum );
+            return sum;
             
     }
 }
