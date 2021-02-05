@@ -91,7 +91,7 @@ public class AppWeek5 {
         if (resultList.isEmpty() == true) {
             System.out.println("There is no intersection between both lists");
         } else {
-            System.out.println("The intersection between the two initial lists is " +resultList);
+            System.out.println("The intersection between the two initial lists " +listA +" and " +listB +" is " +resultList);
         }
     return resultList;
     }
