@@ -1,3 +1,5 @@
+package com.patrick.lab;
+
 import java.util.ArrayList;
 
 public class Appweek6 {
@@ -57,7 +59,7 @@ class ProductItem {
     }
 
     //Return the total price of the order of the product
-    double itemTotalPrice(String name, double price, int quantity) {
+        double itemTotalPrice(String name, double price, int quantity) {
         double total = (price * quantity);
         System.out.println("The total price of " +quantity +" " +name +" is: $" +total);
         return total;
@@ -88,9 +90,5 @@ class Order {
         return grandTotal;
 
     }
-
-    //ProductItem productitem1 = new ProductItem("Bag of oranges", 5.99, 1);
-    //ProductItem productitem2 = new ProductItem("Bag of strawberries", 6.00, 3);
-    //ProductItem productitem3 = new ProductItem("Watermelon", 4.00, 2);
     
 }
