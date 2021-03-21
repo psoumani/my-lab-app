@@ -1,7 +1,7 @@
 package com.patrick.lab;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 public class Appweek10 {
 
@@ -57,7 +57,7 @@ public class Appweek10 {
 
     }
 
-    public Integer minimumElement(ArrayList<Integer> list) {
+    public int minimumElement(ArrayList<Integer> list) {
         int minElt = list.get(0);
 
         for (int i = 1; i < list.size(); i++) {
